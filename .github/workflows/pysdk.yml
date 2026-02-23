@@ -1,4 +1,4 @@
-name: pysdk
+name: CI
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
         run: echo Hello, world!
 
       - name: Run Python script from pysdk/
-        run: python3 pysdk/test.py
+        run: python3 pysdk/test.py TEST
 
       - name: Post build message
         run: |
