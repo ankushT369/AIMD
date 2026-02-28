@@ -1,2 +1,2 @@
-# AIMD
-Agent Identity &amp; Monitoring Daemon
+# aimd
+Agent Identity & Monitoring Daemon
